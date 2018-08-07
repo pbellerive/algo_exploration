@@ -1,12 +1,34 @@
-from insertion_sort import insertion_sort
-from heap_sort import build_heap
-from heap_sort import heap_sort
+import sys
+from random import shuffle
+from sorts.insertion_sort import insertion_sort
+from sorts.heap_sort import build_heap
+from sorts.heap_sort import heap_sort
+from sorts.merge_sort import merge_sort
+from utils.utils import *
 
-original_array = [5,76,4,175,78,9,43,99,12,]
-print(original_array)
-insertion_sort(original_array)
-print(original_array)
+length = 10
+if (len(sys.argv) == 3):
+    length = sys.argv[2]
+    
+original_array = [iter for iter in range(0, int(length))]
+shuffle(original_array)
 
-original_array = [5,76,4,175,78,9,43,99,12,22]
-print(original_array)
-print(heap_sort(original_array))
+if (len(sys.argv) < 2):
+    print('Need to specify algo')
+    exit()
+
+if (sys.argv[1] == 'insertion'):
+    print('Insertion sort')
+    clone_array = original_array[:]
+    execute_and_time(insertion_sort, clone_array)
+    print(validate_order(clone_array))
+elif (sys.argv[1] == 'heap'):
+    print('Heap sort')
+    clone_array = original_array[:]
+    execute_and_time(heap_sort, clone_array)
+    print(validate_order(clone_array))
+elif (sys.argv[1] == 'merge'):
+    print('Merge sort')
+    clone_array = original_array[:]
+    execute_and_time(merge_sort, clone_array, 0, len(clone_array))
+    print(validate_order(clone_array))
