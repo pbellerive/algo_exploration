@@ -4,7 +4,7 @@ Exploration of basic algorithms in python.
 
 Educational purpose.
 
-Algorithms are based, mainly, on the book Introduction to Algorithms, second edition from Thomas H. Cormen, Charles E. Leison, Ronald L. Rivest, Clifford Stein.
+Algorithms are based, mainly, on the book Introduction to Algorithms, second edition of Thomas H. Cormen, Charles E. Leison, Ronald L. Rivest, Clifford Stein.
 
 ## SORT
 Insertion sort (p. 15)
