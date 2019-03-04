@@ -7,7 +7,8 @@ from sorts.merge_sort import merge_sort
 from sorts.bubble_sort import bubble_sort
 from string_matching.naive import naive_string_matching
 from string_matching.rabin_karp import rabin_karp_matcher
-from utils.utils import *
+from utils.utils import execute_and_time
+from utils.utils import validate_order
 
 length = 10
 if (len(sys.argv) == 3):
