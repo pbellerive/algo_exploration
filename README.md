@@ -1,6 +1,8 @@
 # Exploration of basic data structure and algorithm
 
-Exploration of basic algorithm in python. Educational purpose.
+Exploration of basic algorithms in python. 
+Educational purpose.
+
 Algorithms are based, mainly, on the book Introduction to Algorithms, second edition from Thomas H. Cormen, Charles E. Leison, Ronald L. Rivest, Clifford Stein.
 
 ## SORT
