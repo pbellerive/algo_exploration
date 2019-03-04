@@ -10,7 +10,7 @@ def merge(array, p, q, r):
 
     left.insert(len(left), None)
     right.insert(len(right), None)
-
+    print(left, right)
     i = 0
     j = 0
     for k in range (p, r):
