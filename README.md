@@ -1,4 +1,4 @@
-# Exploration of basic data structure and algorithm
+# Exploration of basic data structures and algorithms
 
 Exploration of basic algorithms in python. 
 
