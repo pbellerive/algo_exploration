@@ -8,9 +8,10 @@ Algorithms are based, mainly, on the book Introduction to Algorithms, second edi
 
 ## SORT
 1. Insertion sort (p. 15)
-2. Heap sort (p. 127)
-3. Merge sort (p. 29)
-4. Bubble sort (p. 38)
+2. Heapsort (p. 127)
+3. Mergesort (p. 29)
+4. Bubblesort (p. 38)
+5. Quicksort (p. 145)
 
 ## String matching
 1. Naive string matching(p. 909)

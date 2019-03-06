@@ -1,8 +1,8 @@
-def merge_sort(array, p, r):       
+def mergesort(array, p, r):       
     if (r-p > 1):
         q = (p+r)//2
-        merge_sort(array, p, q)  
-        merge_sort(array, q, r)    
+        mergesort(array, p, q)  
+        mergesort(array, q, r)    
         merge(array, p, q, r)
 def merge(array, p, q, r):    
     left = array[p:q]
